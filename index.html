@@ -1,0 +1,399 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Diamonds' Tutor | Learn, Grow & Shine</title>
+
+<meta name="description" content="The Diamonds' Tutor menyediakan kelas Mandarin, English, Math dan berbagai subject lainnya.">
+<meta name="keywords" content="The Diamonds Tutor, Mandarin, English, Math, Private Tutor, Les Anak">
+
+<style>
+:root {
+  --ocean: #287f83;
+  --mint: #8edbd0;
+  --soft-mint: #e2f5f1;
+  --background: #f5fbf8;
+  --dark: #244b50;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--background);
+  color: var(--dark);
+  line-height: 1.6;
+}
+
+header {
+  background: white;
+  padding: 15px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 15px #287f8315;
+}
+
+.logo {
+  font-size: 21px;
+  font-weight: bold;
+  color: var(--ocean);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--dark);
+  margin-left: 22px;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 75px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  background: linear-gradient(135deg, #dff5ef, #ffffff, #e6f7f3);
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  color: var(--ocean);
+  margin: 20px 0;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.hero img {
+  width: 340px;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.tag {
+  background: var(--mint);
+  padding: 9px 18px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px 23px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.btn-primary {
+  background: var(--ocean);
+  color: white;
+}
+
+.btn-whatsapp {
+  background: #20b86a;
+  color: white;
+}
+
+section {
+  padding: 70px 8%;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.section-title h2 {
+  font-size: 34px;
+  color: var(--ocean);
+}
+
+.section-title p {
+  color: #648187;
+}
+
+.about {
+  text-align: center;
+  max-width: 850px;
+  margin: auto;
+}
+
+.classes {
+  background: #eaf7f3;
+}
+
+.class-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.class-card {
+  background: white;
+  border-radius: 22px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 8px 25px #287f8310;
+  transition: .3s;
+}
+
+.class-card:hover {
+  transform: translateY(-7px);
+}
+
+.class-icon {
+  font-size: 42px;
+  margin-bottom: 12px;
+}
+
+.class-card h3 {
+  color: var(--ocean);
+  margin-bottom: 10px;
+}
+
+.class-card p {
+  margin-bottom: 20px;
+  color: #648187;
+}
+
+.class-card a {
+  display: inline-block;
+  background: var(--soft-mint);
+  color: var(--ocean);
+  padding: 10px 18px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact {
+  text-align: center;
+  background: linear-gradient(135deg, #dff5ef, #f5fbf8);
+}
+
+footer {
+  background: var(--ocean);
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+@media(max-width: 850px) {
+  .class-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+}
+
+@media(max-width: 550px) {
+  header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  nav a {
+    margin: 0 7px;
+    font-size: 13px;
+  }
+
+  .class-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero img {
+    width: 230px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">💎 THE DIAMONDS' TUTOR</div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#classes">Classes</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+
+  <div class="hero-content">
+    <span class="tag">The Diamonds' Tutor</span>
+
+    <h1>
+      Every Child Is A Diamond
+      Ready To Shine!
+    </h1>
+
+    <p>
+      Welcome to The Diamonds' Tutor!
+      Discover your potential through fun,
+      meaningful and exciting learning experiences.
+    </p>
+
+    <a href="#classes" class="btn btn-primary">
+      Explore Our Classes
+    </a>
+
+    <a href="https://wa.me/6281936102575"
+       class="btn btn-whatsapp">
+      Chat With Us
+    </a>
+  </div>
+
+  <img src="logo-the-diamonds-tutor.png"
+       alt="The Diamonds Tutor Logo">
+
+</section>
+
+<section id="about">
+
+  <div class="section-title">
+    <h2>About The Diamonds' Tutor</h2>
+    <p>Learn, Grow and Shine Together!</p>
+  </div>
+
+  <div class="about">
+    <p>
+      We believe every student has a unique potential.
+      Our mission is to create a positive learning
+      experience where students can explore,
+      improve their skills and build confidence.
+      Every little progress is a step towards
+      becoming a shining diamond!
+    </p>
+  </div>
+
+</section>
+
+<section class="classes" id="classes">
+
+  <div class="section-title">
+    <h2>Choose Your Class</h2>
+    <p>Find the perfect subject for your learning journey.</p>
+  </div>
+
+  <div class="class-container">
+
+    <div class="class-card">
+      <div class="class-icon">你好</div>
+      <h3>Mandarin Class</h3>
+      <p>
+        Learn Mandarin vocabulary, pronunciation,
+        conversation and Chinese characters.
+      </p>
+      <a href="https://wa.me/6281936102575?text=Halo%20saya%20tertarik%20Mandarin%20Class">
+        Join Class
+      </a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-icon">🔤</div>
+      <h3>English Class</h3>
+      <p>
+        Improve your English speaking,
+        vocabulary, reading and writing skills.
+      </p>
+      <a href="https://wa.me/6281936102575?text=Halo%20saya%20tertarik%20English%20Class">
+        Join Class
+      </a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-icon">➗</div>
+      <h3>Math Class</h3>
+      <p>
+        Understand mathematics, develop logical
+        thinking and improve problem-solving skills.
+      </p>
+      <a href="https://wa.me/6281936102575?text=Halo%20saya%20tertarik%20Math%20Class">
+        Join Class
+      </a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-icon">📚</div>
+      <h3>Other Subjects</h3>
+      <p>
+        Need help with other school subjects?
+        Let's discover the right learning support.
+      </p>
+      <a href="https://wa.me/6281936102575?text=Halo%20saya%20ingin%20bertanya%20Other%20Subjects">
+        Join Class
+      </a>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="contact">
+
+  <div class="section-title">
+    <h2>Let's Connect!</h2>
+    <p>Start your learning journey with us.</p>
+  </div>
+
+  <p>Instagram: @thediamondstutor</p>
+  <p>WhatsApp: 081936102575</p>
+
+  <br>
+
+  <a class="btn btn-primary"
+     href="https://www.instagram.com/thediamondstutor/"
+     target="_blank">
+    Instagram
+  </a>
+
+  <a class="btn btn-whatsapp"
+     href="https://wa.me/6281936102575"
+     target="_blank">
+    Chat WhatsApp
+  </a>
+
+  <a class="btn btn-primary"
+     href="https://www.google.com/search?q=The+Diamonds%27+Tutor"
+     target="_blank">
+    Search Google
+  </a>
+
+</section>
+
+<footer>
+  © 2026 The Diamonds' Tutor.
+  Learn • Grow • Shine 💎
+</footer>
+
+</body>
+</html>
